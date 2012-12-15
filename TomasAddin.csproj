@@ -121,6 +121,9 @@
       <Link>TomasAddin - For Testing.AddIn</Link>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <PropertyGroup>
     <PreBuildEvent>
